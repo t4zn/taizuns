@@ -2,10 +2,6 @@
 
 This repository contains the source code for a personal Linktree-like profile page, which allows you to showcase your social media links and contact information in a sleek, responsive design.
 
-## ⚙️ Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript
-
 ## 🛠️ Installation
 
 To run this profile page locally or make contributions, follow these steps:
@@ -17,6 +13,10 @@ To run this profile page locally or make contributions, follow these steps:
     ```
 
 2. **Open the `index.html` file** in your preferred web browser.
+
+## ⚙️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
 
 ## 📂 Project Structure
 
