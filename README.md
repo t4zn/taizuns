@@ -8,8 +8,8 @@ To run this profile page locally or make contributions, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Anuswar/linktree-like-profile.git
-    cd linktree-like-profile
+    git clone https://github.com/Anuswar/linktree.git
+    cd linktree
     ```
 
 2. **Open the `index.html` file** in your preferred web browser.
