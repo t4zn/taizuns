@@ -14,10 +14,6 @@ To run this profile page locally or make contributions, follow these steps:
 
 2. **Open the `index.html` file** in your preferred web browser.
 
-## ⚙️ Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript
-
 ## 📂 Project Structure
 
 The project structure is organized as follows:
