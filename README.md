@@ -1,4 +1,4 @@
-![Linktree-like Website Preview](https://raw.githubusercontent.com/Anuswar/varnothsava/main/assets/images/preview.jpg)
+![Linktree-like Website Preview](https://raw.githubusercontent.com/Anuswar/linktree-clone/main/assets/images/preview.jpg)
 
 # 🌐 Linktree-like Website
 
