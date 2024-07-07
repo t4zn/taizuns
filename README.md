@@ -1,6 +1,8 @@
-# 🌐 Linktree-like Profile
+![Linktree-like Website Preview](https://raw.githubusercontent.com/Anuswar/varnothsava/main/assets/images/preview.jpg)
 
-This repository contains the source code for a personal Linktree-like profile page, which allows you to showcase your social media links and contact information in a sleek, responsive design.
+# 🌐 Linktree-like Website
+
+This repository contains the source code for a personal Linktree-like Website page, which allows you to showcase your social media links and contact information in a sleek, responsive design.
 
 ## 🛠️ Installation
 
@@ -8,8 +10,8 @@ To run this profile page locally or make contributions, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Anuswar/linktree.git
-    cd linktree
+    git clone https://github.com/Anuswar/linktree-clone.git
+    cd linktree-clone
     ```
 
 2. **Open the `index.html` file** in your preferred web browser.
