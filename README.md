@@ -1,6 +1,6 @@
 ![Linktree-like Website Preview](https://raw.githubusercontent.com/Anuswar/linktree-clone/main/preview.jpg)
 
-# 🌐 Linktree-like Website
+# 🔗 Linktree-like Website
 
 This repository contains the source code for a personal Linktree-like Website page, which allows you to showcase your social media links and contact information in a sleek, responsive design.
 
