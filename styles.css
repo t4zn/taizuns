@@ -1,5 +1,7 @@
+/* =============== GLOBAL =============== */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
+/* =============== BASIC =============== */
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +14,6 @@ a {
 }
 
 body {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +24,7 @@ body {
   overflow-y: scroll;
 }
 
-/* Scrollbar Styles for WebKit Browsers (Chrome, Safari) */
+/* =============== SCROLL BAR =============== */
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -42,20 +43,19 @@ body {
   background-color: #bbb;
 }
 
-/* Scrollbar Styles for Firefox */
+/*=============== LAYOUT ===============*/
 body {
   scrollbar-width: thin;
   scrollbar-color: #888 #444;
 }
 
-/* Container Styles */
 .container {
   width: 90%;
   max-width: 30rem;
   margin: 2rem auto;
-  padding-top: 400px;
 }
 
+/*=============== HEADAR ===============*/
 .head-section {
   text-align: center;
   margin-bottom: 2rem;
@@ -83,32 +83,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.contact-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
-  flex-direction: column;
-}
-
-.contact-button {
-  display: flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  transition: background 0.25s ease;
-}
-
-.contact-button:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.contact-button i {
-  margin-right: 0.5rem;
-}
-
+/*=============== SOCIAL LINKS ===============*/
 .social-links ul {
   list-style: none;
 }
@@ -145,7 +120,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* Define background colors for each social link */
+/* background colors */
 .website {
   background-color: #333;
 }
