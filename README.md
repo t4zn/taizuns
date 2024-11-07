@@ -22,7 +22,6 @@ To run this profile page locally or make contributions, follow these steps:
 - Fonts: Google Fonts (Nunito, Rubik)
 - Icons: Font Awesome
 - Libraries:
-    - Font Awesome (icons)
     - Animate.css (animations)
 
 ## 📂 Project Structure
