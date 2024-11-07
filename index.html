@@ -5,31 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linktree</title>
     <!-- Meta tags for SEO and social sharing -->
-    <meta
-      name="description"
-      content="Personal profile page with social media links, contact buttons, and a brief introduction."
-    />
-    <meta
-      name="keywords"
-      content="Linktree, personal profile, social media links, contact, developer profile"
-    />
+    <meta name="description" content="Personal profile page with social media links, contact buttons, and a brief introduction." />
+    <meta name="keywords" content="Linktree, personal profile, social media links, contact, developer profile" />
     <meta name="author" content="Anuswar R Rao" />
 
     <!-- Open Graph meta tags for social media sharing -->
     <meta property="og:title" content="Anuswar R Rao - Full-stack Developer" />
-    <meta
-      property="og:description"
-      content="Based in India, I'm a Full-stack developer passionate about building accessible web apps that users love."
-    />
+    <meta property="og:description" content="Based in India, I'm a Full-stack developer passionate about building accessible web apps that users love." />
     <meta property="og:image" content="profile-picture.jpg" />
     <meta property="og:url" content="https://anuswarr.netlify.app/" />
     <meta property="og:type" content="website" />
 
     <!-- Font Awesome for icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
 
@@ -37,23 +29,24 @@
     <link rel="preload" as="image" href="profile-picture.jpg" />
   </head>
   <body>
+
     <!-- Main container -->
+    
     <div class="container">
       <!--=============== HEADER ===============-->
-      <div class="head-section">
-        <img src="profile-picture.jpg" alt="profile-picture" />
-        <h1>Anuswar R Rao</h1>
-        <p>
-          Based in India, I'm a Full-stack developer passionate about building
-          accessible web apps that users love.
+      <div class="head-section animate__animated animate__fadeInDown">
+        <img src="profile-picture.jpg" alt="profile-picture" class="animate__animated animate__fadeInLeft" />
+        <h1 class="animate__animated animate__fadeInRight">Anuswar R Rao</h1>
+        <p class="animate__animated animate__fadeInUp">
+          Based in India, I'm a Full-stack developer passionate about building accessible web apps that users love.
         </p>
       </div>
-
+    
       <!--=============== SOCIAL MEDIA LINKS ===============-->
-      <div class="social-links">
+      <div class="social-links animate__animated animate__fadeInUp">
         <ul>
-          <!-- Social media - 1 -->
-          <li class="website">
+          <!-- Social media links with individual animations -->
+          <li class="website animate__animated animate__bounceIn" style="animation-delay: 0.2s;">
             <a href="https://anuswarrrao.netlify.app/" target="_blank">
               <i class="fas fa-globe"></i>
               <span>
@@ -62,9 +55,7 @@
               </span>
             </a>
           </li>
-
-          <!-- Social media - 2 -->
-          <li class="github">
+          <li class="github animate__animated animate__bounceIn" style="animation-delay: 0.4s;">
             <a href="https://github.com/Anuswar" target="_blank">
               <i class="fab fa-github"></i>
               <span>
@@ -73,9 +64,7 @@
               </span>
             </a>
           </li>
-
-          <!-- Social media - 3 -->
-          <li class="linkedin">
+          <li class="linkedin animate__animated animate__bounceIn" style="animation-delay: 0.6s;">
             <a href="https://www.linkedin.com/in/anuswarrrao" target="_blank">
               <i class="fab fa-linkedin"></i>
               <span>
@@ -84,9 +73,7 @@
               </span>
             </a>
           </li>
-
-          <!-- Social media - 4 -->
-          <li class="instagram">
+          <li class="instagram animate__animated animate__bounceIn" style="animation-delay: 0.8s;">
             <a href="https://www.instagram.com/anuswarrrao" target="_blank">
               <i class="fab fa-instagram"></i>
               <span>
@@ -95,13 +82,8 @@
               </span>
             </a>
           </li>
-
-          <!-- Social media - 5 -->
-          <li class="facebook">
-            <a
-              href="https://www.facebook.com/people/Anuswar-R-Rao/100086760363819/"
-              target="_blank"
-            >
+          <li class="facebook animate__animated animate__bounceIn" style="animation-delay: 1s;">
+            <a href="https://www.facebook.com/people/Anuswar-R-Rao/100086760363819/" target="_blank">
               <i class="fab fa-facebook"></i>
               <span>
                 <h3>Facebook</h3>
@@ -109,9 +91,7 @@
               </span>
             </a>
           </li>
-
-          <!-- Social media - 6 -->
-          <li class="twitter">
+          <li class="twitter animate__animated animate__bounceIn" style="animation-delay: 1.2s;">
             <a href="https://x.com/anuswarrrao" target="_blank">
               <i class="fab fa-twitter"></i>
               <span>
@@ -123,5 +103,6 @@
         </ul>
       </div>
     </div>
+    
   </body>
 </html>
