@@ -23,20 +23,33 @@ To run this profile page locally or make contributions, follow these steps:
 - Icons: Font Awesome
 - Libraries:
     - Animate.css (animations)
+    - Bootstrap (stylesheet)
+    - Share.js (share URL)
+    - Clipboard.js (copy text)
 
 ## 📂 Project Structure
 
 The project structure is organized as follows:
 
 ```
-linktree-clone/
+linktree-clone-main/
 │
 ├── LICENSE.md                # Licensing information for the project
 ├── README.md                 # Documentation and instructions for the project
-├── index.html                # Main HTML file for the Linktree clone
-├── preview.jpg               # Preview image of the Linktree clone interface
-├── profile-picture.jpg       # Profile picture to be displayed on the page
-└── styles.css                # CSS file for styling the Linktree clone
+├── index.html                # Main HTML file for your project
+├── preview.jpg               # Preview image of the project interface
+│
+├── js/                       # JavaScript files
+│   └── script.js             # Main JavaScript file
+│
+├── assets/                   # Assets folder for images and styles
+│   ├── css/                  # CSS files
+│   │   └── styles.css        # CSS file for styling
+│   │
+│   └── images/               # Images folder
+│       ├── favicon-dark.svg  # Dark mode favicon
+│       ├── favicon-light.svg # Light mode favicon
+│       └── profile-picture.jpg # Profile picture to be displayed
 ```
 
 ## 🤝 Contributing
