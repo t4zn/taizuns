@@ -16,8 +16,6 @@
 
 A modern, responsive Linktree clone that serves as your personal link hub. Showcase all your important links in one beautifully designed, mobile-friendly page with dark/light mode support and smooth animations.
 
-#### 🔗 Check out the live demo: [anuswarrrao.sbs](https://anuswarrrao.sbs/)
-
 
 
 ## ✨ Features
@@ -28,6 +26,7 @@ A modern, responsive Linktree clone that serves as your personal link hub. Showc
 - **Link Buttons** – Showcase unlimited links to your portfolio, blog, or social media.
 - **Share Button** – One-click to share your link page with others.
 - **Contact Links** – Connect via email, call, or social media (Instagram, GitHub, LinkedIn).
+
 
 
 ## 🛠️ Installation
