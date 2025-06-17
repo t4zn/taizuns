@@ -98,9 +98,9 @@ linktree-clone-main/
 ```html
 <li class="animate__animated animate__bounceIn" style="animation-delay:0.2s;">
   <a href="your-link-here" target="_blank" rel="noopener">
-    <img src="assets/images/icon/website.svg" alt="Website icon" class="icon icon-large">
+    <img src="assets/images/icon/your-icon.svg" alt="your-icon" class="icon icon-large">
     <div>
-      <h3>Your Link Title</h3><small>Visit my personal website.</small>
+      <h3>Your Link Name</h3><small>Your Link Title</small>
     </div>
   </a>
 </li>
