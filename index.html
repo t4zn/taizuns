@@ -1,227 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Linktree</title>
-    <link id="favicon" rel="icon" href="assets/images/favicon-dark.svg" />
-    <meta name="title" content="Linktree" />
-    <meta name="description" content="Personal profile page with social media links, contact buttons, and a brief introduction." />
-    <meta name="keywords" content="Linktree, personal profile, social media links, contact, developer profile" />
-    <meta name="author" content="Anuswar R Rao" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://anuswarr.netlify.app/" />
-    <meta property="og:title" content="Linktree" />
-    <meta property="og:description" content="Personal profile page with social media links, contact buttons, and a brief introduction." />
-    <meta property="og:image" content="https://anuswarr.netlify.app/assets/images/profile-picture.jpg" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://anuswarr.netlify.app/" />
-    <meta property="twitter:title" content="Linktree" />
-    <meta property="twitter:description" content="Personal profile page with social media links, contact buttons, and a brief introduction." />
-    <meta property="twitter:image" content="https://anuswarr.netlify.app/assets/images/profile-picture.jpg" />
+  <!-- Primary Meta Tags -->
+  <title>Anuswar R Rao – Full-Stack Developer | Portfolio</title>
+  <meta name="title" content="Anuswar R Rao – Full-Stack Developer | Portfolio">
+  <meta name="description" content="Explore the portfolio, projects, and social profiles of Anuswar R Rao, a Full-Stack Developer from India.">
+  <meta name="keywords" content="Anuswar R Rao, Full-Stack Developer, Web Developer, Portfolio, GitHub, LinkedIn, India, Projects, Personal Website">
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+  <link rel="canonical" href="https://anuswarrrao.sbs/">
 
-    <!-- Font Awesome -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="https://anuswarrrao.sbs/assets/images/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="https://anuswarrrao.sbs/assets/images/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="https://anuswarrrao.sbs/assets/images/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://anuswarrrao.sbs/assets/images/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Anuswar R Rao" />
+  <link rel="manifest" href="https://anuswarrrao.sbs/assets/images/favicon/site.webmanifest" />
 
-    <!-- Animate.css CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anuswarrrao.sbs/">
+  <meta property="og:title" content="Anuswar R Rao – Full-Stack Developer | Portfolio">
+  <meta property="og:description" content="Explore the portfolio, projects, and social profiles of Anuswar R Rao, a Full-Stack Developer from India.">
+  <meta property="og:image" content="https://anuswarrrao.sbs/assets/images/preview.jpg">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anuswar R Rao – Full-Stack Developer | Portfolio">
+  <meta name="twitter:description" content="Explore the portfolio, projects, and social profiles of Anuswar R Rao, a Full-Stack Developer from India.">
+  <meta name="twitter:image" content="https://anuswarrrao.sbs/images/preview.jpg">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
+  <!-- Preload critical resources -->
+  <link rel="preload" as="image" href="https://anuswarrrao.sbs/assets/images/profile-picture.webp">
 
-    <!-- Dark Mode Toggle -->
-    <div id="dark-mode-toggle" class="position-absolute top-0 end-0 m-3"></div>
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Anuswar R Rao",
+    "url": "https://anuswarrrao.sbs/",
+    "image": "https://anuswarrrao.sbs/assets/images/profile-picture.jpg",
+    "jobTitle": "Full-Stack Developer",
+    "sameAs": [
+      "https://github.com/anuswarrrao",
+      "https://www.linkedin.com/in/anuswarrrao",
+      "https://x.com/anuswarrrao",
+      "https://www.instagram.com/anuswarrrao",
+      "https://www.facebook.com/people/Anuswar-R-Rao/100086760363819/"
+    ]
+  }
+  </script>
 
-    <!--=============== MAIN CONTAINER ===============-->
-    <main class="container text-center py-5">
-      
-      <!--=============== HEADER SECTION ===============-->
-      <section class="head-section animate__animated animate__fadeInDown">
-        <img src="assets/images/profile-picture.jpg" alt="profile-picture" class="rounded-circle img-fluid mb-3 animate__animated animate__fadeInLeft" style="width: 8rem" />
+  <!-- Fonts and Styles -->
+  <link rel="stylesheet" href="https://anuswarrrao.sbs/libraries/animate.css">
+  <link rel="stylesheet" href="https://anuswarrrao.sbs/libraries/google-font/font.css">
+  <link rel="stylesheet" href="https://anuswarrrao.sbs/assets/css/styles.css">
 
-        <h1 class="fw-bold animate__animated animate__fadeInRight">
-          Anuswar R Rao
-        </h1>
+  <script defer src="https://anuswarrrao.sbs/js/script.js"></script>
+</head>
 
-        <!-- New Buttons -->
-        <div class="button-container">
-
-          <a href="tel:+919008192632" class="btn btn-dark btn-lg number-btn">
-            <i class="fas fa-phone"></i> +91 90081 92632
-          </a>
-
-          <a href="mailto:anuswarrrao@gmail.com" class="btn btn-dark btn-sm mail-btn">
-            <i class="fas fa-envelope"></i>
-          </a>
-
-          <a class="btn btn-dark btn-sm share-btn" id="shareBtn">
-            <i class="fas fa-share-alt"></i>
-          </a>
-        </div>
-
-        <p class="lead animate__animated animate__fadeInUp">
-          Based in India, I'm a Full-stack developer passionate about building
-          accessible web apps that users love.
-        </p>
-      </section>
-
-      <!--=============== SHARE MODE ===============-->
-      <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="shareModalLabel">Share This</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-
-              <!-- Flexbox Layout for Social Media Buttons -->
-              <div class="social-media-container">
-                <div class="social-card">
-                  <button class="btn btn-outline-primary social-btn" onclick="shareOn('facebook')">
-                    <i class="fab fa-facebook"></i> Facebook
-                  </button>
-                </div>
-
-                <div class="social-card">
-                  <button class="btn btn-outline-info social-btn" onclick="shareOn('twitter')">
-                    <i class="fab fa-twitter"></i> Twitter
-                  </button>
-                </div>
-
-                <div class="social-card">
-                  <button class="btn btn-outline-primary social-btn" onclick="shareOn('linkedin')">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                  </button>
-                </div>
-
-                <div class="social-card">
-                  <button class="btn btn-outline-danger social-btn" onclick="shareOn('whatsapp')">
-                    <i class="fab fa-whatsapp"></i> WhatsApp
-                  </button>
-                </div>
-
-                <div class="social-card">
-                  <button class="btn btn-outline-dark social-btn" onclick="shareOn('email')">
-                    <i class="fas fa-envelope"></i> Email
-                  </button>
-                </div>
-              </div>
-
-              <!-- URL Copy Section -->
-              <div class="copy-url-container mt-3">
-                <input type="text" id="shareUrl" class="form-control" value="https://anuswarr.netlify.app/" readonly />
-                <button id="copyBtn" class="btn" data-clipboard-target="#shareUrl">
-                  <i class="fas fa-copy me-2"></i> Copy
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--=============== LINKS SECTION ===============-->
-      <section class="social-links animate__animated animate__fadeInUp">
-        <ul class="list-unstyled">
-          <!-- My Website -->
-          <li class="mb-3 animate__animated animate__bounceIn" style="animation-delay: 0.2s">
-            <a href="https://anuswarrrao.netlify.app/" target="_blank" class="microlink btn btn-dark d-flex align-items-center p-3 rounded-3 text-start">
-              <i class="fas fa-globe me-3"></i>
-              <div class="text-start">
-                <h5 class="mb-0">My Website</h5>
-                <small>Visit my personal website.</small>
-              </div>
-            </a>
-          </li>
-
-          <!-- GitHub -->
-          <li class="mb-3 animate__animated animate__bounceIn" style="animation-delay: 0.4s">
-            <a href="https://github.com/Anuswar" target="_blank" class="btn d-flex btn-dark align-items-center p-3 rounded-3 text-start">
-              <i class="fab fa-github me-3"></i>
-              <div class="text-start">
-                <h5 class="mb-0">GitHub</h5>
-                <small>Download free source code on GitHub.</small>
-              </div>
-            </a>
-          </li>
-
-          <!-- LinkedIn -->
-          <li class="mb-3 animate__animated animate__bounceIn" style="animation-delay: 0.6s">
-            <a href="https://www.linkedin.com/in/anuswarrrao" target="_blank" class="btn btn-dark d-flex align-items-center p-3 rounded-3 text-start">
-              <i class="fab fa-linkedin me-3"></i>
-              <div class="text-start">
-                <h5 class="mb-0">LinkedIn</h5>
-                <small>Connect with me on LinkedIn.</small>
-              </div>
-            </a>
-          </li>
-
-          <!-- Instagram -->
-          <li class="mb-3 animate__animated animate__bounceIn" style="animation-delay: 0.8s">
-            <a href="https://www.instagram.com/anuswarrrao" target="_blank" class="btn btn-dark d-flex align-items-center p-3 rounded-3 text-start">
-              <i class="fab fa-instagram me-3"></i>
-              <div class="text-start">
-                <h5 class="mb-0">Instagram</h5>
-                <small>Follow me for more updates.</small>
-              </div>
-            </a>
-          </li>
-
-          <!-- Facebook -->
-          <li class="mb-3 animate__animated animate__bounceIn" style="animation-delay: 1s">
-            <a href="https://www.facebook.com/people/Anuswar-R-Rao/100086760363819/" target="_blank" class="btn btn-dark d-flex align-items-center p-3 rounded-3 text-start">
-              <i class="fab fa-facebook me-3"></i>
-              <div class="text-start">
-                <h5 class="mb-0">Facebook</h5>
-                <small>Check out my Facebook page.</small>
-              </div>
-            </a>
-          </li>
-
-          <!-- Twitter -->
-          <li class="mb-3 animate__animated animate__bounceIn" style="animation-delay: 1.2s">
-            <a href="https://x.com/anuswarrrao" target="_blank" class="btn btn-dark d-flex align-items-center p-3 rounded-3 text-start">
-              <i class="fab fa-twitter me-3"></i>
-              <div class="text-start">
-                <h5 class="mb-0">Twitter</h5>
-                <small>Follow me on Twitter.</small>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <!--=============== TOGGLE BTN ===============-->
-      <div id="dark-mode-toggle" class="position-fixed top-0 end-0 m-3">
-        <button id="theme-toggle" class="btn btn-light rounded-circle p-2 shadow-sm">
-          <i id="theme-icon" class="fas fa-moon"></i>
+<body>
+  <!--=============== DARK MODE TOGGLE ===============-->
+  <header id="top">
+    <nav aria-label="Dark mode toggle">
+      <div id="dark-mode-toggle">
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <img id="theme-icon" src="assets/images/icon/moon.svg" alt="Moon icon" class="icon icon-small">
         </button>
       </div>
-    </main>
+    </nav>
+  </header>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!--=============== MAIN CONTAINER ===============-->
+  <main class="main-container">
+    <!--=============== BIO SECTION ===============-->
+    <section class="head-section animate__animated animate__fadeInDown">
+      <div class="blob-center">
+        <div class="blob-wrapper">
+          <img src="assets/images/profile-picture.webp" alt="Anuswar R Rao Profile Picture"
+            class="blob-image animate__animated animate__fadeInLeft" width="160" height="160" loading="lazy">
+        </div>
+      </div>
 
-    <!-- Share.js CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/sharejs@2.0.0"></script>
+      <h1 class="animate__animated animate__fadeInRight">Anuswar R Rao</h1>
 
-    <!-- Clipboard.js CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+      <div class="button-container">
+        <a href="tel:+919008319263" class="number-btn" aria-label="Call Anuswar R Rao">
+          <img src="assets/images/icon/phone.svg" alt="Phone icon" class="icon icon-small">
+          +91 90083 192639
+        </a>
+        <a href="mailto:anuswarrrao@gmail.com" class="mail-btn" aria-label="Email Anuswar R Rao">
+          <img src="assets/images/icon/mail.svg" alt="Email icon" class="icon icon-small">
+        </a>
+        <button id="shareBtn" class="share-btn" aria-label="Share Profile">
+          <img src="assets/images/icon/share.svg" alt="Share icon" class="icon icon-small">
+        </button>
+      </div>
 
-    <script src="js/script.js"></script>
-  </body>
+      <p class="lead animate__animated animate__fadeInUp">
+        Based in India, I'm a Full-Stack Developer passionate about building accessible web apps that users love.
+      </p>
+    </section>
+
+    <!--=============== LINK SECTION ===============-->
+    <section class="social-links animate__animated animate__fadeInUp">
+      <h2 class="visually-hidden">Connect with me</h2>
+      <ul>
+        <li class="animate__animated animate__bounceIn" style="animation-delay:0.2s;">
+          <a href="https://anuswarrrao.netlify.app/" target="_blank" rel="noopener">
+            <img src="assets/images/icon/website.svg" alt="Website icon" class="icon icon-large">
+            <div>
+              <h3>My Website</h3><small>Visit my personal website.</small>
+            </div>
+          </a>
+        </li>
+        <li class="animate__animated animate__bounceIn" style="animation-delay:0.4s;">
+          <a href="https://github.com/anuswarrrao" target="_blank" rel="noopener">
+            <img src="assets/images/icon/github.svg" alt="GitHub icon" class="icon icon-large">
+            <div>
+              <h3>GitHub</h3><small>Download free source code on GitHub.</small>
+            </div>
+          </a>
+        </li>
+        <li class="animate__animated animate__bounceIn" style="animation-delay:0.6s;">
+          <a href="https://www.linkedin.com/in/anuswarrrao" target="_blank" rel="noopener">
+            <img src="assets/images/icon/linkedin.svg" alt="LinkedIn icon" class="icon icon-large">
+            <div>
+              <h3>LinkedIn</h3><small>Connect with me on LinkedIn.</small>
+            </div>
+          </a>
+        </li>
+        <li class="animate__animated animate__bounceIn" style="animation-delay:0.8s;">
+          <a href="https://www.instagram.com/anuswarrrao" target="_blank" rel="noopener">
+            <img src="assets/images/icon/instagram.svg" alt="Instagram icon" class="icon icon-large">
+            <div>
+              <h3>Instagram</h3><small>Follow me for more updates.</small>
+            </div>
+          </a>
+        </li>
+        <li class="animate__animated animate__bounceIn" style="animation-delay:1s;">
+          <a href="https://www.facebook.com/people/Anuswar-R-Rao/100086760363819/" target="_blank" rel="noopener">
+            <img src="assets/images/icon/facebook.svg" alt="Facebook icon" class="icon icon-large">
+            <div>
+              <h3>Facebook</h3><small>Check out my Facebook page.</small>
+            </div>
+          </a>
+        </li>
+        <li class="animate__animated animate__bounceIn" style="animation-delay:1.2s;">
+          <a href="https://x.com/anuswarrrao" target="_blank" rel="noopener">
+            <img src="assets/images/icon/twitter.svg" alt="Twitter icon" class="icon icon-large">
+            <div>
+              <h3>Twitter</h3><small>Follow me on Twitter.</small>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+
 </html>
