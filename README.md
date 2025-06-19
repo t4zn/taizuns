@@ -82,68 +82,6 @@ linktree-clone-main/
 
 
 
-## 🎨 Customization
-
-### 🔧 Personal Information
-
-1. Replace `assets/images/profile-picture.webp` with your own photo.
-2. Edit personal details in `index.html`:
-
-   * Name and bio
-   * Contact information
-   * Social media links
-
-### ➕ Adding Links
-
-```html
-<li class="animate__animated animate__bounceIn" style="animation-delay:0.2s;">
-  <a href="your-link-here" target="_blank" rel="noopener">
-    <img src="assets/images/icon/your-icon.svg" alt="your-icon" class="icon icon-large">
-    <div>
-      <h3>Your Link Name</h3><small>Your Link Title</small>
-    </div>
-  </a>
-</li>
-```
-
-### 🎨 Color Schemes
-
-Modify the CSS variables in `assets/css/styles.css`:
-
-```css
-:root {
-  /* Background Colors */
-  --bg-dark: #your-color;
-  --bg-light: #your-color;
-
-  /* Text Colors */
-  --text-dark: #your-color;
-  --text-light: #your-color;
-
-  /* Button Colors */
-  --btn-bg: #your-color;
-  --btn-bg-hover: #your-color;
-  --btn-text: #your-color;
-
-  /* Border Colors */
-  --border-light: #your-color;
-
-  /* Shadow Colors */
-  --shadow-dark: #your-color;
-  --shadow-light: #your-color;
-  --shadow-light-hover: #your-color;
-
-  /* Grid Colors */
-  --grid-dark: #your-color;
-  --grid-light: #your-color;
-
-  /* Scrollbar Colors */
-  --scrollbar-thumb: #your-color;
-}
-```
-
-
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you find any issues, have suggestions, or want to add new features, please open an issue or create a pull request.
