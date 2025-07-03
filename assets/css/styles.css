@@ -14,7 +14,7 @@
   --shadow-light: rgba(255, 255, 255, 0.3);
   --shadow-light-hover: rgba(255, 255, 255, 0.5);
 
-  --grid-dark: rgba(255, 255, 255, 0.03);
+  --grid-dark: rgba(255, 255, 255, 0.05);
   --grid-light: rgba(0, 0, 0, 0.1);
 
   --scrollbar-thumb: #111;
