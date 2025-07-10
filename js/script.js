@@ -38,20 +38,22 @@ function handleShareClick(e) {
   e.preventDefault();
   currentLink = this.getAttribute("data-link");
 
+  // Update copy button clipboard text
+  copyBtn.setAttribute("data-clipboard-text", currentLink);
+
   overlay.classList.remove("hidden");
   setTimeout(() => overlay.classList.add("active"), 10);
 
   generateQR();
 }
 
-// Attach event listeners
+// Attach event listeners to all share triggers
 document.querySelectorAll(".share-trigger").forEach((btn) => {
   btn.removeEventListener("click", handleShareClick);
   btn.addEventListener("click", handleShareClick);
 });
 
 function generateQR() {
-  // Clear previous QR code
   if (qrCode) {
     qrCode.clear();
     qrCode = null;
@@ -95,23 +97,23 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-copyBtn.onclick = async () => {
-  try {
-    if (navigator.clipboard) {
-      await navigator.clipboard.writeText(currentLink);
-    } else {
-      fallbackCopyTextToClipboard(currentLink);
-    }
+// Clipboard.js integration
+const clipboard = new ClipboardJS('.clipboard-btn');
 
-    showToast("Link copied to clipboard!");
-    copyBtn.style.transform = "scale(0.95)";
-    setTimeout(() => {
-      copyBtn.style.transform = "";
-    }, 150);
-  } catch (err) {
-    showToast("Failed to copy link", true);
-  }
-};
+clipboard.on('success', function (e) {
+  showToast("Link copied to clipboard!");
+  copyBtn.style.transform = "scale(0.95)";
+  setTimeout(() => {
+    copyBtn.style.transform = "";
+  }, 150);
+  e.clearSelection();
+});
+
+clipboard.on('error', function (e) {
+  // fallback copy
+  fallbackCopyTextToClipboard(currentLink);
+  showToast("Copied using fallback method");
+});
 
 // Optional fallback for clipboard API
 function fallbackCopyTextToClipboard(text) {
@@ -169,17 +171,17 @@ downloadBtn.onclick = () => {
   }
 };
 
-// Show toast
+// Toast helper
 function showToast(message, isError = false) {
   Toastify({
     text: `${isError ? "⚠️" : "✅"} ${message}`,
     duration: 3000,
-    gravity: "bottom", 
-    position: "right", 
+    gravity: "bottom",
+    position: "right",
     backgroundColor: isError
       ? "linear-gradient(135deg, #ef4444, #dc2626)"
       : "linear-gradient(135deg, #10b981, #059669)",
     stopOnFocus: true,
-    close: true
+    close: true,
   }).showToast();
 }
