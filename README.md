@@ -1,6 +1,6 @@
-# 🔗 Linktree-like Website
+# 🔗 freelink-bio
 
-![Preview of Linktree-like Website](https://raw.githubusercontent.com/Anuswar/linktree-clone/main/assets/images/preview.jpg)
+![Preview of freelink-bio Website](https://raw.githubusercontent.com/Anuswar/linktree-clone/main/assets/images/preview.jpg)
 
 <div align="center">
 
@@ -14,32 +14,35 @@
 </div>
 
 
-A modern, responsive Linktree clone that serves as your personal link hub. Showcase all your important links in one beautifully designed, mobile-friendly page with dark/light mode support and smooth animations.
+I got really frustrated with modern “link-in-bio” platforms. All their basic features were pushed behind paywalls. So I built my own — a clean, fast, modern, black space-themed link-in-bio page. It's fully self-hosted and completely free forever.
 
 
 
 ## ✨ Features
 
-- **Dark/Light Mode Toggle** – Switch seamlessly between dark and light themes.
-- **Animated Background & Animations** – Subtle, smooth effects for a modern and dynamic feel.
-- **Mobile Responsive** – Works flawlessly on all screen sizes.
-- **Link Buttons** – Showcase unlimited links to your portfolio, blog, or social media.
-- **Share Button** – One-click to share your link page with others.
-- **Contact Links** – Connect via email, call, or social media (Instagram, GitHub, LinkedIn).
-
+- **Dark/Light Mode Toggle**
+- **Animated Page Transitions**
+- **Fully Responsive Design**
+Smart Share Button on Every Link (Just like Instagram)
+    - QR Code Preview
+    - Native System Share
+    - Copy to Clipboard
+    - Download QR Code Image
+- **Support for Contact Links**
+    - Email
+    - Phone / WhatsApp
+    - Discord, GitHub, LinkedIn, etc.
 
 
 ## 🛠️ Installation
-
-To run this profile page locally or make contributions, follow these steps:
 
 ### 🔁 Option 1: Clone the Repository
 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/Anuswar/linktree-clone.git
-cd linktree-clone
+git clone https://github.com/anuswarrrao/freelink-bio.git
+cd freelink-bio-main
 ```
 
 2. **Open the `index.html` file** in your preferred web browser.
@@ -55,31 +58,45 @@ cd linktree-clone
 ## 📂 Project Structure
 
 ```
-linktree-clone-main/
+freelink-bio-main/
 │
-├── LICENSE.md                  # License information for the project
-├── README.md                   # Documentation and setup instructions
-├── index.html                  # Main HTML file of the project
-├── CNAME                       # Custom domain configuration (used for GitHub Pages)
+├── LICENSE.md               # MIT license file
+├── README.md                # Documentation
+├── index.html               # Main page
+├── CNAME                    # GitHub Pages custom domain (optional)
 │
-├── js/                         # JavaScript files
-│   └── script.js               # Main JavaScript file
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── images/
+│   │   ├── favicon/         # Icons
+│   │   ├── icon/            # Social icons
+│   │   ├── anuswar-rao-profile-photo.webp
+│   │   └── preview.jpg
 │
-├── libraries/                  # External libraries
-│   ├── google-font/            # Web font files (e.g., Nunito)
-│   └── animate.css             # Animate.css for animations
+├── js/
+│   └── script.js
 │
-├── assets/                     # Static assets like styles and images
-│   ├── css/                    # CSS files
-│   │   └── styles.css          # Main stylesheet
-│   │
-│   └── images/                 # Image files
-│       ├── favicon/            # Favicon and web manifest files
-│       ├── icon/               # Icon images (e.g., moon.svg, sun.svg)
-│       ├── preview.jpg         # Screenshot/preview of the project interface
-│       └── profile-picture.jpg # User profile picture for display
+├── libraries/
+│   ├── google-font/         # Optional local fonts
+│   ├── toastify/            # Toastify.js (notifications)
+│   ├── animate.min.css      # Animate.css
+│   ├── clipboard.min.js     # Clipboard copy
+│   └── qrcode.min.js        # QR code generation
+
 ```
 
+
+## 🧰 Tech Stack
+
+| Tool / Library    | Purpose                         |
+|-------------------|----------------------------------|
+| **HTML, CSS, JS** | Core Structure & Functionality   |
+| Google Fonts      | Custom Typography                |
+| Animate.css       | Transitions & Animations         |
+| QRCode.js         | QR Code Generation               |
+| Toastify.js       | Notifications                    |
+| Clipboard.js      | Copy Link Feature                |
 
 
 ## 🤝 Contributing
