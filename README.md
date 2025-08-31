@@ -81,7 +81,6 @@ freelink-bio-main/
 │   ├── google-font/         # Optional local fonts
 │   ├── toastify/            # Toastify.js (notifications)
 │   ├── animate.min.css      # Animate.css
-│   ├── clipboard.min.js     # Clipboard copy
 │   └── qrcode.min.js        # QR code generation
 
 ```
@@ -96,7 +95,6 @@ freelink-bio-main/
 | Animate.css       | Transitions & Animations         |
 | QRCode.js         | QR Code Generation               |
 | Toastify.js       | Notifications                    |
-| Clipboard.js      | Copy Link Feature                |
 
 
 ## 🤝 Contributing
