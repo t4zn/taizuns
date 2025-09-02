@@ -58,7 +58,7 @@ cd freelink-bio-main
 ## 📂 Project Structure
 
 ```
-freelink-bio-main/
+freelink-bio/
 │
 ├── LICENSE.md               # MIT license file
 ├── README.md                # Documentation
@@ -67,21 +67,24 @@ freelink-bio-main/
 │
 ├── assets/
 │   ├── css/
-│   │   └── styles.css
+│   │   ├── styles.css
+│   │   └── styles.css.map
+│   ├── scss/
 │   ├── images/
-│   │   ├── favicon/         # Icons
-│   │   ├── icon/            # Social icons
+│   │   ├── favicon/
+│   │   ├── icon/
 │   │   ├── anuswar-rao-profile-photo.webp
 │   │   └── preview.jpg
 │
 ├── js/
-│   └── script.js
+│   ├── app.js
+│   └── modules/
 │
 ├── libraries/
-│   ├── google-font/         # Optional local fonts
-│   ├── toastify/            # Toastify.js (notifications)
-│   ├── animate.min.css      # Animate.css
-│   └── qrcode.min.js        # QR code generation
+│   ├── google-font/
+│   ├── toastify/
+│   ├── animate.min.css
+│   └── qrcode.min.js
 
 ```
 

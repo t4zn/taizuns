@@ -57,10 +57,6 @@ body.light-mode #theme-toggle {
   z-index: 1;
 }
 
-:focus-visible {
-  outline-offset: 4px;
-}
-
 /* =============== SCROLLBAR =============== */
 ::-webkit-scrollbar {
   width: 5px;
@@ -479,5 +475,3 @@ small {
     font-size: 1.25rem;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
