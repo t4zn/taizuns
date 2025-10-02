@@ -230,6 +230,20 @@ small {
   transform: scale(1.05);
 }
 
+.location-btn.minimal-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: #111;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
 .social-links ul {
   list-style: none;
   padding: 0;
