@@ -1,5 +1,5 @@
-# 🔗 freelink-bio
 
+>>>>>>> c58b8a8ede7c58bbc98b324010c954cd8e16f42a
 ![Preview of freelink-bio Website](https://raw.githubusercontent.com/t4zn/taizuns/main/assets/images/preview.jpg)
 
 <div align="center">
@@ -116,3 +116,5 @@ Contributions are welcome! If you find any issues, have suggestions, or want to 
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE.md), which means you are free to use, modify, and distribute the code.
+=======
+>>>>>>> c58b8a8ede7c58bbc98b324010c954cd8e16f42a
