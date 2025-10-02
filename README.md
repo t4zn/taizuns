@@ -1,15 +1,15 @@
 # 🔗 freelink-bio
 
-![Preview of freelink-bio Website](https://raw.githubusercontent.com/Anuswar/linktree-clone/main/assets/images/preview.jpg)
+![Preview of freelink-bio Website](https://raw.githubusercontent.com/t4zn/taizuns/main/assets/images/preview.jpg)
 
 <div align="center">
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://www.w3.org/html/)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat&logo=google-chrome&logoColor=white)](https://anuswarrrao.sbs/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat&logo=google-chrome&logoColor=white)](https://taizunkaptan.sbs/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
-[![Last Commit](https://img.shields.io/github/last-commit/Anuswar/linktree-clone)](https://github.com/Anuswar/linktree-clone/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/t4zn/taizuns)](https://github.com/t4zn/taizuns/commits/main)
 
 </div>
 
@@ -41,7 +41,7 @@ Smart Share Button on Every Link (Just like Instagram)
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/anuswarrrao/freelink-bio.git
+git clone https://github.com/t4zn/taizuns.git
 cd freelink-bio-main
 ```
 
@@ -73,7 +73,7 @@ freelink-bio/
 │   ├── images/
 │   │   ├── favicon/
 │   │   ├── icon/
-│   │   ├── anuswar-rao-profile-photo.webp
+│   │   ├── taizun-kaptan-profile-photo.webp
 │   │   └── preview.jpg
 │
 ├── js/

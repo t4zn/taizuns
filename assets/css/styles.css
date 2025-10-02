@@ -251,10 +251,6 @@ small {
 .link-item:hover .icon {
   transform: scale(1.1);
 }
-.link-item:hover .dots-btn {
-  opacity: 1;
-}
-
 .link-wrapper {
   display: flex;
   align-items: center;
@@ -274,21 +270,6 @@ small {
 .link-wrapper .icon {
   margin-right: 1rem;
   transition: transform 0.3s ease;
-}
-
-.dots-btn {
-  background: none;
-  border: none;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  opacity: 0.3;
-  transition: opacity 0.3s ease;
-}
-
-.dots-img {
-  width: 24px;
-  height: 24px;
 }
 
 .share-overlay {
