@@ -1,0 +1,13 @@
+/* Taizun Font Stylesheet - hosted on taizun.site */
+@font-face {
+    font-family: 'Taizun';
+    src: url('./assets/fonts/Taizun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Optional helper class */
+.taizun-text {
+    font-family: 'Taizun', sans-serif;
+}
