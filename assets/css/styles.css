@@ -735,6 +735,9 @@ body.light-mode .close-btn:hover {
 }
 
 @media (max-width: 768px) {
+  .main-container {
+    margin: 5rem auto;
+  }
   h1 {
     font-size: 1.9rem;
   }
@@ -793,6 +796,9 @@ body.light-mode .close-btn:hover {
   }
 }
 @media (max-width: 480px) {
+  .main-container {
+    margin: 3rem auto;
+  }
   h1 {
     font-size: 1.7rem;
   }
