@@ -40,7 +40,7 @@ function showNotification(message) {
   }, 3000);
 }
 
-// Single click on Profile Image - Confetti Effect
+// Single click on Profile Image - Confetti Effect + Screen Shake
 function initProfileImageClick() {
   const profileImage = document.querySelector('.blob-image');
   
@@ -48,6 +48,7 @@ function initProfileImageClick() {
     profileImage.style.cursor = 'pointer';
     profileImage.addEventListener('click', () => {
       activateConfetti();
+      activateShakeEffect();
     });
   }
 }
