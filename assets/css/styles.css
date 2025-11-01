@@ -864,3 +864,49 @@ body.light-mode .close-btn:hover {
   text-align: center;
   clear: both;
 }
+/* =============== FLOATING DOWNLOAD BUTTON =============== */
+.floating-download-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  white-space: nowrap;
+}
+
+.floating-download-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.floating-download-btn svg {
+  transition: transform 0.3s ease;
+}
+
+.floating-download-btn:hover svg {
+  transform: scale(1.1);
+}
+
+/* Light mode styles */
+body.light-mode .floating-download-btn {
+  background: rgba(0, 0, 0, 0.1);
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+body.light-mode .floating-download-btn:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
